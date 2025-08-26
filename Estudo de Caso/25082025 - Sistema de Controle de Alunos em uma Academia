@@ -16,18 +16,6 @@ alunos = [
         "avaliacoes": [7.0, 7.5, 8.0]
     }
 ]
-
-
-# Função para adicionar novos alunos
-
-def cadastro_aluno(alunos):
-    nome = input(str('Informar nome do Aluno'))
-    idade = input(int('Informar idade do aluno'))
-    altura = input(float('Informar altura do aluno. Ex.: 1.77'))
-    ativo = bool(True)
-    avaliacoes = input(list(float('Informar notas das avaliações físicas. Ex.: 8.1, 7.5, 9.0')))
-
-print(cadastro_aluno)
     
 
 # Função de cálculo de média das avaliações
@@ -57,3 +45,11 @@ def listar_ativos(alunos):
 
 # Função para adicionar novos alunos
 
+def cadastro_aluno(alunos):
+    nome = input(str('Informar nome do Aluno'))
+    idade = input(int('Informar idade do aluno'))
+    altura = input(float('Informar altura do aluno. Ex.: 1.77'))
+    ativo = bool(True)
+    avaliacoes = input(list(float('Informar notas das avaliações físicas. Ex.: 8.1, 7.5, 9.0')))
+
+print(cadastro_aluno)
