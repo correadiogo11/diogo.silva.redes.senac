@@ -52,4 +52,4 @@ def cadastro_aluno(alunos):
     ativo = bool(True)
     avaliacoes = input(list(float('Informar notas das avaliações físicas. Ex.: 8.1, 7.5, 9.0')))
 
-cadastro_aluno
+print(cadastro_aluno)
